@@ -5,11 +5,15 @@ VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7E4B5656-3DAE-44FB-8B41-BC80E3CAEAD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreTorrent", "src\CoreTorrent\CoreTorrent.csproj", "{C3436931-570C-4D86-A089-6FD4846845CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreTorrent", "src\CoreTorrent\CoreTorrent.csproj", "{C3436931-570C-4D86-A089-6FD4846845CA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AA00CAF4-19DD-481B-8BC8-77265B0FA7EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreTorrent.Tests", "tests\CoreTorrent.Tests\CoreTorrent.Tests.csproj", "{9F55B754-3348-41B7-9B0C-90C12E58D8B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreTorrent.Tests", "tests\CoreTorrent.Tests\CoreTorrent.Tests.csproj", "{9F55B754-3348-41B7-9B0C-90C12E58D8B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreTorrent.Common", "src\CoreTorrent.Common\CoreTorrent.Common.csproj", "{4324A0E3-4869-4786-A017-700D549E006A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreTorrent.Dht", "src\CoreTorrent.Dht\CoreTorrent.Dht.csproj", "{3BECE5A5-F9ED-48E6-809A-23777B7A75BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,14 @@ Global
 		{9F55B754-3348-41B7-9B0C-90C12E58D8B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F55B754-3348-41B7-9B0C-90C12E58D8B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F55B754-3348-41B7-9B0C-90C12E58D8B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4324A0E3-4869-4786-A017-700D549E006A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4324A0E3-4869-4786-A017-700D549E006A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4324A0E3-4869-4786-A017-700D549E006A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4324A0E3-4869-4786-A017-700D549E006A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BECE5A5-F9ED-48E6-809A-23777B7A75BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BECE5A5-F9ED-48E6-809A-23777B7A75BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BECE5A5-F9ED-48E6-809A-23777B7A75BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BECE5A5-F9ED-48E6-809A-23777B7A75BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C3436931-570C-4D86-A089-6FD4846845CA} = {7E4B5656-3DAE-44FB-8B41-BC80E3CAEAD5}
 		{9F55B754-3348-41B7-9B0C-90C12E58D8B6} = {AA00CAF4-19DD-481B-8BC8-77265B0FA7EE}
+		{4324A0E3-4869-4786-A017-700D549E006A} = {7E4B5656-3DAE-44FB-8B41-BC80E3CAEAD5}
+		{3BECE5A5-F9ED-48E6-809A-23777B7A75BF} = {7E4B5656-3DAE-44FB-8B41-BC80E3CAEAD5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BCD2BF5A-4053-4F29-B526-9CE339DC8391}
